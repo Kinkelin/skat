@@ -10,7 +10,7 @@ Evaluating from the perspective of the individual players with imperfect informa
 This would include win probabilities for bidding options, engine evaluation of card options in trick play and expected game outcome. 
 
 ## Roadmap
-The current focus is currently is to implement a good base for AI implementations and training.
+The focus is currently on implementing a good base for AI implementations and training.
 
 - ✔ Game logic base: skat.py defines constants and basic game logic, including a number of numba.njit compiling functions to enable fast simulations.
 - ✔ Agent interfaces: SkatPlayer includes all methods to receive game information and return player decisions. The game can be split into a bidding and a playing phase, with the BiddingAgent and PlayingAgent interfaces.
@@ -24,3 +24,4 @@ The current focus is currently is to implement a good base for AI implementation
 - ✖ Train bidding phase agent utilizing fully played out games with a strong playing phase agent.
 - ✖ Evaluate playing strength against real human players. Ideally through collaboration with an existing online Skat playerbase.
 - ✖ Create GUI for AI supported game analysis
+
