@@ -1,0 +1,7 @@
+numpy
+numba
+stable-baselines3
+sb3-contrib
+gymnasium
+tabulate
+
